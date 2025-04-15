@@ -1,0 +1,48 @@
+/* Import Mulish font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900&display=swap');
+
+/* Apply Mulish font to the entire body */
+body {
+  font-family: 'Mulish', sans-serif;
+  /* You can set a default font weight here if you like */
+  /* font-weight: 400; */
+}
+
+/* Example usage for different font weights */
+
+h1 {
+  font-family: 'Mulish', sans-serif;
+  font-weight: 800; /* ExtraBold */
+}
+
+h2 {
+  font-family: 'Mulish', sans-serif;
+  font-weight: 700; /* Bold */
+}
+
+p {
+  font-family: 'Mulish', sans-serif;
+  font-weight: 400; /* Regular */
+}
+
+.light-text{
+    font-weight: 300; /* light */
+}
+
+.extra-light-text{
+    font-weight: 200; /* extra light */
+}
+
+.medium-text{
+    font-weight: 500; /* medium */
+}
+
+.thick-text{
+    font-weight: 900; /* Black */
+}
+
+hr {
+    background-color: #000000; /* Black */
+    height: 3px;
+    border: none;
+}
